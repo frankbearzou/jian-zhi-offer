@@ -8,20 +8,14 @@
  */
 class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {
-        ListNode node = head, cur = head;
-        while (node != null) {
-            cur = node;
-            int i = 0;
-            for (i = 0; i < k; i++) {
-                if (cur != null) {
-                    cur = cur.next;
-                }
-            }
-            if (i == k && cur == null) {
-                return node;
-            }
+        ListNode front = head, node = head;
+        for (int i = 0; i < k; i++) {
+            front = front.next;
+        }
+        while (front != null) {
+            front = front.next;
             node = node.next;
         }
-        return null;
+        return node;
     }
 }
