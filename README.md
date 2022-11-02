@@ -29,3 +29,4 @@ https://leetcode.cn/problem-list/xb9nqhhg/
 [剑指 Offer 26. 树的子结构](https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/) | [Java](solution/26/) |
 [剑指 Offer 27. 二叉树的镜像](https://leetcode.cn/problems/er-cha-shu-de-jing-xiang-lcof/) | [Java](solution/27/) |
 [剑指 Offer 28. 对称的二叉树](https://leetcode.cn/problems/dui-cheng-de-er-cha-shu-lcof/) | [Java](solution/28/) |
+[剑指 Offer 29. 顺时针打印矩阵](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/) | [Java](solution/29/) |
